@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body nav{
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+body nav h5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline;
+    /* border: 2px solid red; */
+    width: 900px;
+    /* justify-content: space-around; */
+    font-family: "Poppins";
+    align-items: bottom;
+    font-weight: bold;
+}
+div.nav-items {
+    display: flex;
+    flex-direction: row;
+    /* display: inline-block; */
+    /* justify-content: space-between; */
+    /* display: absolute; */
+    margin-left: 100px;
+    /* border: 2px solid black; */
+    width: 900px;
+    color: #838181;
+
+}
+div.nav-items h5:hover{
+    color: #f87534;
+}
+div.intro-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.headphone-div{
+    /* border: 2px solid black; */
+    height: 60%;
+}
+[headphone]{
+    position: relative;
+    width: 350px;
+    z-index: -1;
+    margin-left: 100px;
+    top: -50%;
+}
+.discount{
+    position: relative;
+    width: 100px;
+    height: 150px;
+    top: 55%;
+    left: 10%;
+}
+.discount-content{
+    font-family: "Poppins";
+    position: relative;
+    font-size: 12px;
+    top: 30%;
+    left: 90px;
+}
+div.discount-content h1{
+    position: relative;
+    font-size: 25px;
+    margin-left: 10px;
+    bottom: 70px;
+}
+.dot1::after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #f6bb4c;
+}
+.dot2::after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #f87534;
+}
+.dot3::after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #171717;
+}
+.dots{
+    position: relative;
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: -60px;
+    z-index: -1;
+}
+div.threeDot{
+    position: fixed;
+    display: inline;
+    margin-left: 150px;
+    /* margin-top: -1000px; */
+    /* z-index: -1; */
+}
+button.action-btn{
+    background-color: #f87534;
+    font-family: "Poppins";
+    /* font-weight: bold; */
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #f87534;
+    color: #ffff;
+}
+div.left-section{
+    font-family: "Poppins";
+    height: 66vh;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+div.sub-headlines img{
+    /* position: relative; */
+    /* display: inline-block; */
+    background-color: #f87534;
+    border-radius: 15px;
+    border: 2px solid #f87534;
+    margin-left: 50px;
+    width: 20px;
+}
+h3.product{
+    position: absolute;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+h3.product img{
+    /* position: absolute; */
+    width: 40px;
+    margin-left: 5px;
+}
+h1{
+    /* position: absolute; */
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 60px;
+    font-weight: 900;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.text{
+    font-family: "Poppins";
+    font-weight: normal;
+    color: #838181;
+    margin-left: 50px;
+    /* font-size: 12px; */
+}
+div.action-btns{
+    display: flex;
+    /* border: 2px solid black; */
+    /* justify-content: space-around; */
+    margin-left: ;
+}
+div.action-btns button{
+    margin-top: 60px;
+    margin-left: 50px;
+    padding: 10px 60px;
+}
+div.sub-headlines h5{
+    position: relative;
+
+    font-weight: bold;
+}
+
+button.action-btn.addBtn{
+    display: fixed;
+    margin-top: 70px;
+    margin-left: 200px;
+}
