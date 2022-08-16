@@ -12,6 +12,7 @@
             font-family: "Poppins";
             align-items: bottom;
             font-weight: bold;
+            margin-left: 20px;
         }
     div.nav-items {
             display: flex;
@@ -19,7 +20,7 @@
             /* display: inline-block; */
             /* justify-content: space-between; */
             /* display: absolute; */
-            margin-left: 00px;
+            margin-left: 50px;
             /* border: 2px solid black; */
             width: 900px;
             color: #838181;
@@ -34,7 +35,7 @@
         border: 2px solid red;
         width: 300px;
         height: 30px;
-        margin-left: 20px;
+        margin-left: 80px;
     }
     
     /* intro section */
@@ -61,7 +62,7 @@
         width: 100px;
         height: 150px;
         top: 55%;
-        left: 10%;
+        left: -30%;
     }
     .discount-content{
         /* border: 2px solid red; */
@@ -70,53 +71,98 @@
         position: relative;
         font-size: 12px;
         top: 30%;
-        left: 90px;
+        left: -10px;
     }
     div.discount-content h1{
         position: relative;
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 10px;
         bottom: 70px;
-    }
-    .dot1::after{
-        content: "";
-        display: block;
-        width: 20px;
-        height: 20px;
-        border-radius: 10px;
-        background-color: #f6bb4c;
-    }
-    .dot2::after{
-        content: "";
-        display: block;
-        width: 20px;
-        height: 20px;
-        border-radius: 10px;
-        background-color: #f87534;
-    }
-    .dot3::after{
-        content: "";
-        display: block;
-        width: 20px;
-        height: 20px;
-        border-radius: 10px;
-        background-color: #171717;
     }
     .dots{
         position: relative;
         display: flex;
         display: inline-block;
         flex-direction: row;
-        margin-left: 30px;
-        margin-top: -60px;
+        margin-left: 10px;
+        margin-top: 0px;
         z-index: -1;
     }
     div.threeDot{
         position: absolute;
         display: inline;
-        margin-left: 150px;
+        margin-left: 0px;
         /* margin-top: -1000px; */
         /* z-index: -1; */
+    }
+
+    div.left-section{
+        font-family: "Poppins";
+        height: 66vh;
+        /* border: 2px solid black; */
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+    div.sub-headlines img{
+        /* position: relative; */
+        /* display: inline-block; */
+        background-color: #f87534;
+        border-radius: 15px;
+        border: 2px solid #f87534;
+        margin-left: 50px;
+        width: 20px;
+    }
+    h3.product{
+        position: absolute;
+        margin-top: 40px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    h3.product img{
+        /* position: absolute; */
+        width: 40px;
+        margin-left: 5px;
+    }
+    h1{
+        text-align: center;
+        /* position: absolute; */
+        font-family: "Poppins";
+        font-weight: 900;
+        font-size: 30px;
+        font-weight: 900;
+        margin-left: -60px;
+        margin-top: 90px;
+    }
+    .text{
+        width: 400px;
+        margin-top: 50px;
+        font-family: "Poppins";
+        font-weight: normal;
+        color: #838181;
+        margin-left: 50px;
+        /* font-size: 12px; */
+    }
+    div.action-btns{
+        display: flex;
+        /* border: 2px solid black; */
+        /* justify-content: space-around; */
+        margin-left: -40px;
+    }
+    div.action-btns button{
+        margin-top: 60px;
+        margin-left: 50px;
+        padding: 10px 60px;
+    }
+    div.sub-headlines h5{
+        position: relative;
+        text-align: left;
+        font-weight: bold;
+    }
+    
+    button.action-btn.addBtn{
+        position: relative;
+        margin-top: 70px;
+        margin-left: 00px;
     }
 
 }
