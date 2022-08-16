@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
-
+*{
+    /* border: solid 2px red; */
+}
 body nav{
     display: flex;
     /* border: 2px solid black; */
@@ -8,7 +10,7 @@ body nav{
 }
 body nav h5{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     display: inline;
     /* border: 2px solid red; */
@@ -29,6 +31,11 @@ div.nav-items {
     width: 900px;
     color: #838181;
 
+}
+.actionSvg{
+    /* border: 2px solid red; */
+    width: 400px;
+    margin-left: -80px;
 }
 div.nav-items h5:hover{
     color: #f87534;
@@ -56,6 +63,8 @@ div.headphone-div{
     left: 10%;
 }
 .discount-content{
+    /* border: 2px solid red; */
+    width: 200px;
     font-family: "Poppins";
     position: relative;
     font-size: 12px;
@@ -102,7 +111,7 @@ div.discount-content h1{
     z-index: -1;
 }
 div.threeDot{
-    position: fixed;
+    position: absolute;
     display: inline;
     margin-left: 150px;
     /* margin-top: -1000px; */
